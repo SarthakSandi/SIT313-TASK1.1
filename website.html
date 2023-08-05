@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+
+<head>
+<style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(76, 50, 205);
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+.projects {
+  display: flex;
+  
+  justify-content: center;
+}
+
+
+
+.project-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .project-info img {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+  }
+
+  .project2 {
+  display: flex;
+  
+  justify-content: center;
+}
+
+  .project2-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .project2-info img {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+
+  }
+
+  .image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+}
+</style>
+        
+</head>
+<d>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+   
+    <div class="container">
+        <img src="D:\Chitkara\home\3rd sem\313\task1.1\deakin_university_740x400.jpg" alt="Header Image">
+        <div class="overlay">Hello, Myself Sarthak Sandal</div>
+        </div>
+        <br><br>
+        <div class="profile"> 
+        <img src="D:\Chitkara\home\3rd sem\dsa\pic self.jpg" alt="Profile Photo">
+        <p>I am a full-stack web developer based in Melbourne, Australia</p>
+        <br><br>
+        <hr style="width:25%;text-align:center;margin: left 5px;">
+    </div>
+        <br><br>
+    <h2 style="text-align: center;">Here's what I have done so far</h2>
+    <br>
+    <div class="projects">
+        
+          
+    <div class="project-info"> 
+    <img src="D:\Chitkara\home\3rd sem\dsa\WhatsApp Image 2023-05-29 at 20.47.42.jpg" alt="Project1">
+    <div>
+        <h3 style="text-align: center;">Project 1 Industrial development system Project</h3>
+    <p style="text-align: center;">An industrial protection system based on Arduino is designed to ensure safety and security of industrial processes and equipment.</p>
+    
+    </div>
+    </div>
+    </div>
+    
+    <div class="project2">
+        <div class="project2-info">
+        <img src="D:\Chitkara\home\3rd sem\dsa\WhatsApp Image 2023-06-05 at 09.11.41.jpg" alt="Project2" width="25%" height="25%">
+        <div> <h3 style="text-align: center;">Project 2 A Recordbot Based on arduino project</h3>
+        <p style="text-align: center;">An Arduino-based recordbot is a robotic platform built to move on its own or under remote control while recording audio or video.</p> 
+    </div>
+
+        </div>
+    
+    </div>
+<hr style="width:25%;text-align:center;margin: left 5px;">
+<br><h1 style="text-align: center;">My Photos</h1><br>
+<div class="image-gallery-container">
+<div class="image-gallery">
+    <img src="D:\Tasveerein\Kashmir\IMG_2356.JPG" alt="Image 1">
+    <img src="D:\Tasveerein\Kashmir\IMG_2358.JPG" alt="Image 2">
+    <img src="D:\Tasveerein\Kashmir\IMG_2469.JPG" alt="Image 3">
+    <img src="D:\Tasveerein\Kashmir\IMG_2559.JPG" alt="Image4">
+  </div>
+</div>        
+        
+</body>
+</html>
